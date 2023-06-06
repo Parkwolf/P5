@@ -47,13 +47,14 @@
 	<!--ajout élément titre -->
 	<title> Nina Carducci - Photographe professionnel à Bordeaux : Shooting, retouche et album photo personnalisé pour
 		immortaliser vos moments de bonheur</title>
-	<!-- balise meta) -->
+	<!-- balise meta -->
 	<meta name="description" content=" Faites appel à Nina Carducci, photographe sur Bordeaux !
 	artiste à Bordeaux, vous présente son portfolio et ses services : shooting photo, retouches, album photos">
 </head>
 
 <body>
-	<div class=" top-header">
+	<!-- balise du header -->
+	<header class=" top-header">
 		<h1 class="name">Nina Carducci</h1>
 		<div class="nav">
 			<ul>
@@ -67,7 +68,7 @@
 							alt="image du logo instagram" aria-label="Lien vers le profil instagram"></a></li>
 			</ul>
 		</div>
-	</div>
+	</header>
 	<div id="header">
 
 		<div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
@@ -105,7 +106,8 @@
 			</button>
 		</div>
 	</div>
-	<div id="about">
+	<!--ajout section-->
+	<section id="about">
 		<div class="picture left">
 			<img src="./assets/images/nina.webp" alt="nina carducci photo de profil" width="375" height="375"
 				style="max-width: 100%; height: auto;" aria-describedby="ariaDescriptionNina">
@@ -122,8 +124,8 @@
 				technique. Rendre ces moments immortels, afin que vous puissiez y puiser de l’amour, du bonheur, de la
 				tendresse et de lumière à chaque fois que vous poserez les yeux sur vos photos.</p>
 		</div>
-	</div>
-	<div id="gallery">
+	</section>
+	<section id="gallery">
 		<h3 class="title">Portfolio</h3>
 		<div class="container py-3">
 			<div class="gallery" style="display: none" aria-label="Différentes photos du travail de nina carducci"
@@ -169,8 +171,8 @@
 				<figcaption class="quote__author">- Richard Avedon</figcaption>
 			</figure>
 		</div>
-	</div>
-	<div id="services">
+	</section>
+	<section id="services">
 		<h2 class="title">Mes services</h2>
 		<div class="container">
 			<div class="service">
@@ -208,7 +210,7 @@
 				</div>
 			</div>
 		</div>
-	</div>
+	</section>
 	<div class="quote">
 		<figure>
 			<blockquote>
@@ -218,12 +220,13 @@
 			<figcaption class="quote__author">- Richard Avedon</figcaption>
 		</figure>
 	</div>
-	<div id="contact">
+	<!--ajout d'un footer-->
+	<footer id="contact">
 		<div class="container">
 			<div class="form-container">
 				<p>Une question ? Une demande de devis ?</p>
 				<p> N’hésitez pas à m’écrire ! Je vous répondrais en moins de 24 heures</p>
-				<!-- formulaire non redirigé? -->
+				<!-- formulaire-->
 				<form method="post">
 					<label for="nom">Nom</label>
 					<input type="text" name="nom" id="nom">
@@ -239,7 +242,7 @@
 					height="417" style="max-width: 100%; height: auto;">
 			</div>
 		</div>
-	</div>
+	</footer>
 	<!-- balise script du header replacé en bas -->
 	<script src="./assets/maugallery.min.js"></script>
 	<script src="./assets/scripts.min.js"></script>
