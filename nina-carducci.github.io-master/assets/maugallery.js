@@ -242,7 +242,7 @@
         return;
       }
       $(".active-tag").removeClass("active active-tag");
-      // ajout acrtive active tag
+      // ajout active "active" tag
       $(this).addClass("active active-tag");
 
       var tag = $(this).data("images-toggle");
